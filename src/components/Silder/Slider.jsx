@@ -13,7 +13,7 @@ function Slider() {
 
 
 
-  var counter=0;
+  var count=0;
 
     slides.forEach((slide,index)=>{
       slide.style.left=`${index*100}%`
@@ -23,33 +23,34 @@ function Slider() {
 
   const slideImage=()=>{
     slides.forEach((slide)=>{
-        slide.style.transform=`translateX(-${counter*100}%)`
+        slide.style.transform=`translateX(-${count*100}%)`
     })
   }
   
 
+
   function goNext(){
-    counter++;
-    if(counter==3){
-      counter=0;
+    count++;
+    if(count==3){
+      count=0;
     }
     slideImage();
     bull.forEach((item,index)=>{
       item.classList.remove("active");
-      if(index==counter){
+      if(index==count){
        item.classList.add("active")
       }
    })
   }
   function goPrev(){
-    counter--;
-    if(counter<0){
-     counter=2;
+    count--;
+    if(count<0){
+     count=2;
     }
     slideImage();
     bull.forEach((item,index)=>{
       item.classList.remove("active");
-      if(index==counter){
+      if(index==count){
        item.classList.add("active")
       }
    })
