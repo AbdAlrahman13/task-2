@@ -1,7 +1,7 @@
 .content_Deal{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 .contentPrime{
     background-color: rgba(0, 0, 0, 0.055);

@@ -76,13 +76,13 @@
         height: 900px;
     }
     .Video_Frame img{
-        width: 380px;
         position: relative;
+        width: 380px;
         left: 20px;   
      }
      .Video_Boxes{
-        flex-direction: column;
-        gap: 20px;
+         flex-direction: column;
+         gap: 20px;
      }
      .text_Video p{
         text-align: center;

@@ -9,8 +9,8 @@
     position: relative;
 }
 .Box_Video .number{
-    font-size: 30px;
     font-weight: bold;
+    font-size: 30px;
     color: orangered;
     position: absolute;
     left: 35px;
