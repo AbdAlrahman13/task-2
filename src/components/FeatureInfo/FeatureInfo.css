@@ -2,8 +2,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     text-align: center;
+    position: relative;
     top: 20px;
 }
 .my_content p{
