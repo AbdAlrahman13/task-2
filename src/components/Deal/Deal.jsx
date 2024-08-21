@@ -2,7 +2,7 @@ import "../../style.css";
 import "./Deal.css";
 import Title from "../Title/Title";
 import SubTitle from "../SubTitle/SubTitle";
-import FeatureInfo from "../Featured/FeatureInfo";
+import FeatureInfo from "../FeatureInfo/FeatureInfo";
 import BtnNav from "../BtnNav/BtnNav";
 function Deal() {
   return (

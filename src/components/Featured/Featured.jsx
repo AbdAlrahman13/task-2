@@ -1,7 +1,7 @@
 import "../../style.css"
 import "./Featured.css"
 
-import FeatureInfo from "./FeatureInfo"
+import FeatureInfo from "../FeatureInfo/FeatureInfo"
 import Title from "../Title/Title"
 import SubTitle from "../SubTitle/SubTitle"
 

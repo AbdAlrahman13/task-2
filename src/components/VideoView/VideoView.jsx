@@ -3,7 +3,7 @@ import "./VideoView.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 
-import VideoBox from "./VideoBox";
+import VideoBox from "../VideoBox/VideoBox";
 import Title from "../Title/Title"
 function VideoView() {
   return (
