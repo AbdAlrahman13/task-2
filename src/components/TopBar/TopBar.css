@@ -1,0 +1,34 @@
+.TopBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    width: 50%;
+}
+.info span{
+    color: rgb(128, 128, 128);
+}
+.info .icon{
+    color: orangered;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.Text{
+    margin-left: 70px;
+}
+.icons .icon{
+    font-size: 15px;
+    margin: 6px;
+    background-color: grey;
+    color: white;
+    padding:10px;
+    border-radius: 50%;   
+}
+
+@media  screen  and (max-width:992px) {
+     .TopBar{
+        display: none;
+     }
+}

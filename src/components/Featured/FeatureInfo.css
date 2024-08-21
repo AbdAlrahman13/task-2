@@ -1,0 +1,33 @@
+.my_content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+.my_content p{
+    color: grey;
+    font-size: 14px;
+    width: 130px; 
+}
+
+.my_content  h3{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px;
+} 
+
+
+.image_content .under{
+    position: relative;
+    top: -15px;
+   
+}
+
+.h2{
+    width: 80%;
+    height: 1px;
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.014)
+}

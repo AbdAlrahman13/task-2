@@ -1,0 +1,103 @@
+.content{
+    width:98vw;
+    margin:0 auto ;
+    height: 100vh;
+    
+}
+.content .images_slider {
+    position: relative;
+    overflow: hidden;
+    height: 120vh;
+}
+.content .images_slider img{
+    position:absolute;
+    width: 100%;
+    transition: 1s;    
+    height: 100%;
+}
+.content .items{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+    
+.content p {
+    background-color: white;
+    color: black;
+    font-size: 26px;
+    padding: 6px;
+    font-weight: bold;
+    width: fit-content;
+    margin-bottom: 30px;
+
+}
+
+
+.content span{
+    color: orangered;
+
+}
+
+.content .p2{
+    top:38%;
+    color: white;
+    background-color:transparent;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.leftSide ,.rightSide{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    background-color:rgba(255, 255, 255, 0.178);
+    padding: 14px;
+    border-radius: 50%;
+}
+
+.content .leftSide {
+    position: absolute;
+    left: 20px;
+    top: 70%;
+    border: none;
+}
+.content .rightSide{
+    position: absolute;
+    right: 20px;
+    top: 70%;
+    border: none;
+}
+
+.bullets {
+    position: absolute;
+    bottom: -225px;
+    left: 20%;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    display: flex;
+}
+.bullets .bullet{
+    margin: 0 5px;
+}
+.active{
+    color: orangered;
+}
+
+
+@media screen and (max-width:992px) {
+    .content img{
+        width: 100%;
+        height: 100%;
+    }
+    .content .images_slider{
+        height: 130vh;
+    }
+    .bullets{
+        display: flex;
+        bottom: -260px;
+    }
+    .content .p2{
+        margin-top: 20px;
+    }
+}

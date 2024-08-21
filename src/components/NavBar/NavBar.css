@@ -1,0 +1,94 @@
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavBar .logo{
+   font-weight: bold;
+   font-size: 30px;
+}
+.NavBar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavBar ul li {
+    list-style: none;
+    margin: 35px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.NavBar ul li:hover a:not(.btn){
+    color: orangered;
+
+}
+.NavBar ul li a{
+    margin-left: 60px;
+    transition: 0.3s;
+}
+.NavBar .active{
+ color: orangered;
+}
+a{
+    color: rgba(0, 0, 0, 0.838);
+    text-decoration: none;
+}
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    padding: 10px 30px;
+  }
+  .btn .gift{
+      margin: 0 8px;
+      background-color: orangered;
+      border-radius: 50%;
+      position: absolute;
+      padding: 10px;
+      left: -16px;
+      top: 0;
+  }
+  .btn span{
+      margin-left:20px ;
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+    padding: 30px;
+    display: none;
+  }
+  .menu ul li{
+    list-style: none;
+    margin: 30px;
+  }
+  .menu ul li a{
+    transition: 0.3s;
+  }
+  .menu ul li:hover a:not(.btn){
+    color: orangered;
+  }
+  .bars{
+    display: none;
+  }
+
+  @media  screen  and (max-width:992px) {
+    .NavBar ul{
+        display:none;
+    }
+    .bars{
+        display: block;
+        background: none;
+        color: black;
+        border: none;
+        font-size: 30px;
+    }
+}
+
+.active{
+    display: block;
+}
